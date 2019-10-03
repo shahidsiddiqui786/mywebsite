@@ -1,0 +1,48 @@
+h1
+{
+	outline-color: rgb(100,20,40);
+	font-size: 48;
+	 text-decoration: red underline  wavy ;
+	 text-shadow:4px 3px white; 
+
+}
+body
+{
+	background-image: url(https://images8.alphacoders.com/418/418516.jpg);
+	background-size: cover; 
+}
+textarea
+{
+	background-image: url(http://cdn.wallpapersafari.com/49/9/vO5Fkj.jpg);
+	background-size: cover;
+
+}
+label
+{
+	color: rgb(25,255,25);
+}
+button
+{
+	background-color: rgb(200,39,188);
+}
+#space
+{
+	color: rgb(100,0,0);
+}
+.check
+{
+color: yellow;
+}
+input[type="text"]{
+	background-color: green;
+}
+input[type="email"]{
+	background-color: green;
+}
+input[type="password"]{
+	background-color: green;
+}
+select[type="option"]
+{
+	color: green;
+}
