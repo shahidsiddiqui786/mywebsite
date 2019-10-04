@@ -1,0 +1,27 @@
+body
+{
+	background-color: rgb(200,100,159);
+	align-content: center;
+}
+img
+{
+	border: 30px solid maroon;
+	border-style: groove;
+}
+h4
+{
+	font-size: 23px;
+	font-style:  italic;
+    color: gold;
+}
+ul
+{
+	align-content: right;
+	color: rgb(10,10,255);
+	font-size: 20px;
+}
+h2
+{
+	font-size: 35px;
+	color:purple;
+}
