@@ -49,3 +49,8 @@ p,h1
     font-size: 24px;
     font-family: 'Livvic', sans-serif;
 }
+img
+{
+	padding-top:20%;
+	padding-left:10%;
+}
