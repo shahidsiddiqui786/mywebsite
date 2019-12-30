@@ -1,0 +1,127 @@
+
+.disableD{
+	font-size: 0;
+	opacity: 0;
+}
+/*************text things*********************/
+.text
+{
+	background-color: rgb(250,0,0);
+	font-size: 3vw;
+	color: yellow;
+	transition: 0.9s ease;
+	margin-left: 52px;
+	margin-right: 35%;
+	transform: translateY(-50%);
+	border: 20px groove #B031ff;
+    border-radius: 0px 30px 0px 33px;
+    opacity: 0;
+}
+.styl
+{
+  color: rgb(12,244,23);
+  font-size: 5vw;
+  text-align: center;
+  padding-top: 25%;
+  padding-bottom: 40px;
+  width: 100%;
+  height: 0px;
+}
+.default{
+	font-size: 5vw;
+	top: 10%;
+	position: absolute;
+	color: #fff;
+}
+.defaultOff{
+  width: 0;
+  height: 0;
+  opacity: 0;
+}
+/***************body style  ********************/
+.bodybackground2{
+	background-color: #ff1122;
+	transition: 0.7s ease;
+}
+body{
+    background-color: rgb(250,0,0);
+}
+.bodybackground1{
+	background-color: rgb(5,51,25);
+	transition: 0.7s ease;
+}
+/*********************** navbar style **************************/
+ .format{
+ 	opacity: 0;
+ }
+ .padbutton{
+	padding-left: 10%;
+	}
+	.navColor{
+		background-color:yellow;
+    transition: 0.3s ease;
+	}
+	.navColor1
+	{
+		background-color: #45ff77;
+    transition: 0.3s ease;
+	}
+	.resizer{
+	color: #ff1122;
+	background-color: #ff1122;
+     }
+/********toggle button **********/
+  .button {
+  background-color: rgb(0,3,250);
+  border: none;
+  color: white;
+  padding: 15px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+      }
+ .button1{
+ 	background-color: #4CAF50;
+ 	color: white;
+ }
+ .button2{
+ 	background-color: indigo;
+ 	color: black;
+ }
+/*************************** side bar style *********************************/
+ .side-bar
+ {
+  position: fixed;
+  top: 30%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+    background-color: rgb(0,250,0);
+    opacity: 0;
+     }
+ .side-bar i {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  font-size: 20px;
+  }
+ .side-bar i:hover {
+  background-color: aqua;
+   }
+/*****************************analog class css*******************************/
+ .analogclock{
+    background-color: #546657;
+    top: 25%;
+    left: 35%;
+    position: absolute;
+    opacity: 0;
+     border-radius:50%;
+ }
+ .disableAnalog{
+ 	width: 0px;
+    height: 0px;
+    opacity: 0;
+ }

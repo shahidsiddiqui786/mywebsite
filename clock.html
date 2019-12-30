@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- head component --------->	
+	<title>My clock page</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">  
+    <link rel="icon" type="image/x-icon" href="24-hours.png">
+	<link rel="stylesheet" type="text/css" href="clock.css">
+</head>
+<body id="bodyback">
+  <!-- designing navigation bar------------------------------>	
+	<nav class="navbar navbar-default navbar-fixed-top navColor" id="navB">
+	  <div class="container">
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <p class="navbar-brand font1"> 
+	        <button class="button" id="digital">Digital Clock</button>
+			<button class="button" id="analog">Analog Clock</button>
+	      </p>
+	    </div>
+	    <div id="navbar" class="collapse navbar-collapse">
+	      <ul class="nav navbar-nav navbar-right">
+	        <li class="dropdown format" id="formatenable">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Format
+	          	<span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li class="padbutton" onclick="format24()">24-Hour</li>
+	            <li role="separator" class="divider"></li>
+	            <li class="padbutton" onclick="format12()">12-Hour</li>
+	          </ul>
+	        </li>
+	      </ul>
+	  </div>
+	 </nav>
+  <!-- whole content   -------------------------------------------------->	 
+	<div class="container">
+		<div class="styl"><span id="digitalclock"></span></div>
+		<canvas class="analogclock" id="canvas" width="400" height="400"></canvas>   
+	    <div id="defaultText" class="default"><p> Welcome to the world of watch!<br>Here you can switch
+			between analog and digital watch by just clicking on toggle at navbar.
+		    you can also zoom accord to your choice. </p></div>	
+	</div>
+  <!-- hide able things --------------------->	
+    <div class="text" id="paratext">
+		<p> Welcome to the world of watch!<br>Here you can switch
+		between analog and digital watch by just clicking on toggle at navbar.
+	    you can also zoom accord to your choice.</p>
+	</div>
+  <!-- Designing sidebar ---------------------------------------->	
+   <div class="side-bar" id="sidebar">
+   	<i class="material-icons" id="para">
+	textsms
+	</i>
+    <!-- creating zoom button -->
+	<div id="zoom">	
+	<i class="material-icons" id="zoom_in">
+	zoom_in
+	</i>
+	<i class="material-icons" id="zoom_out">
+	zoom_out
+	</i>
+	</div>
+   </div>
+  <!------ scripts ----------------------------------->
+<script type="text/javascript" src="clock.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>
