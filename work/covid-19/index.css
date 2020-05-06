@@ -1,0 +1,200 @@
+.active {
+    background-color: #cc00cc;
+  }
+.ans{
+    opacity: 0;
+    display: none;
+   }
+.about{
+    color: #023230;
+    font-size: 24px;
+   }
+.body{
+    background-color: white;
+  }
+.brand{
+    color: aqua;
+   }
+body {
+  font-size: 38px;
+  color: white;
+  margin: 0 ;
+  background-color: rgb(0,0,69);
+ }
+.col{
+    color: green;
+    font-weight: bold;
+  }
+.column{
+    float: left;
+    width: 10%;
+    padding: 5px;
+  }
+  .column-sm {
+    float: left;
+    width: 20%;
+    padding: 25px;
+  }
+  .column-md{
+    float: left;
+    width: 30%;
+    padding: 15px;
+  }
+  .column-lg{
+    float: left;
+    width: 40%;
+    padding: 20px;
+  }
+  .column-x{
+    width: 80%;
+  }
+  .column-x{
+    width: 100%;
+  }
+  .container{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+.container-a{
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 0 auto;
+  }
+ .card-a{
+     background: #f0c6ff url(img/count-bg.png) no-repeat 100% 100%;
+     padding: 40px 20px 25px 20px;
+     font-size: 20px;
+     color: black;
+     border-bottom: 4px solid #ff000d;
+  }
+  .card-b{
+     background: #f0c6ff url(img/count-bg.png) no-repeat 100% 100%;
+     padding: 40px 20px 25px 20px;
+     font-size: 20px;
+     color: #001214;
+     border-bottom: 4px solid #ffff0d;
+  }
+
+  .counter-amount{
+    font-size: 24px;
+    font-weight: 400;
+    
+  }
+  .counter-title {
+    font-weight: 400;
+    margin-bottom: 20px;
+   }
+   .counter-date {
+    font-size: 12px;
+   }
+.faq{
+  color: #111;
+  font-size: 20px;
+}
+.fa{
+  float: right;
+}
+.header{
+    background: url(img/header.jpg) no-repeat center fixed;
+    background-size: cover;
+    max-width: 100%;
+    height: 500px;  
+  }
+.h2color{
+      background-color: gold;
+   }
+hr{
+  color: #111;
+}
+/* hover */
+.qus:hover, .fa:hover {
+      color: blue;
+}
+   .img{
+    width:450px;
+    height: 400px;
+    padding-top: 150px;
+  }
+   .img-prev{
+     width:80%;
+     height: 70%;
+   } 
+@media screen and (max-width: 600px) {
+    .header p, 
+    .header h2{font-size: 32px;}
+  }
+@media screen and (max-width:600px) {
+    .column-sm,.column-lg, .column-md{
+      width: 90%;
+    }
+  }
+/* navigation bar */
+  ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255,128,0);
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+  }
+  ul.navbar li {
+    float: right;
+  }
+  ul.navbar li.left{ float: left; }
+  @media screen and (max-width: 600px) { 
+    ul.navbar li.left,
+    ul.navbar li {float: none; font-size: 16px;}
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+    opacity: 0.1;
+    transition-duration: 5ms;
+  }
+  /* --------------------------   */
+.Prevention {
+      background-color: #669966;
+      font-size: 24px;
+   }  
+.prakatans{
+    opacity: 1;
+    display: block;
+   }
+.quote{
+     color: silver;
+     margin-left: 20px;
+   }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.Symptoms{
+     background-color: #99cccc;
+   }
+.tit{
+      font-size: 20px;
+      color: yellow;
+   }  
+
+  
+
+ 
+  
+  
+ 
+   
+
+   
+
+
+
