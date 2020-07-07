@@ -61,7 +61,7 @@ position: relative;
   right: 0;
   z-index: -1;
   opacity: 0.3;
-  background: linear-gradient(to right,#1e5799 0%,#3ccdbb 0%,#16c9f6 100%);
+  background: #fff;
 }
 .profilePhoto{
   width: 200px;
