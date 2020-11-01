@@ -37,7 +37,7 @@
       --youtube-bg:#db1c0e;
       --dev-bg:#0e0d0d;
       --form-button:#50d1c0;
-      --footer-bg:#0f7230;
+      --footer-bg:#385a30;
       --arrow-bg:#296406;
       --arrow-hover-bg:#606066;
       --slide-time:0.5s;
@@ -75,7 +75,7 @@
   height: 100vh;
   background:linear-gradient(rgba(133, 71, 141, 0.322),rgba(0, 255, 34, 0.3)), url('../img/bgdesktop1.jpg');
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   position: relative;
   }
   .header::before{
@@ -117,7 +117,9 @@
     font-size: xx-large !important;
     text-transform: capitalize !important;
   }
-
+  .navbar {
+    background-color: #28a74594;
+  }
   .nav-item a{
     color: var(--white) !important;
     font-weight: bold;
@@ -171,7 +173,7 @@
   }
   .navbar-nav{
     transform: translateX(1000px);
-    animation: slideleft calc(var(--slide-time)*2) ease-in-out var(--slide-delay) forwards;
+    animation: slideleft calc(var(--slide-time)*1) ease-in-out var(--slide-delay) forwards;
   }
    @media sreen and (max-width:950px){
      .navbar-nav{
