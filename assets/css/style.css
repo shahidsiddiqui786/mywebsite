@@ -1,30 +1,30 @@
-/*         ========================================================================================
+/*  ========================================================================================
                                    Copyright SHAHID SIDDIQUI @2020
-           ========================================================================================
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-           <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<CONTENTS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-           1.BASIC PAGE STYLE
-           2.HEADER STYLE
-           3.PROJECT SECTION STYLE
-           4.SKILLS SECTION STYLE
-           5.ABOUT SECTION STYLE
-           6.CONTACT SECTION STYLE
-           7.FOOTER SECTION STYLE
-           8.DIFFERENT DEVICE STYLE
-           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-           |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
-           ###################%%%%%%%%%%%%%%%%%%%$$$$$$$$$$$$$############&&&&&&&&&&&&&&&&&&&&&&&&&&
+    ========================================================================================
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<CONTENTS>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+           1.BASIC PAGE STYLE                                       18->
+           2.HEADER STYLE                                           70->
+           3.PROJECT SECTION STYLE                                  188->
+           4.SKILLS SECTION STYLE                                   254->
+           5.ABOUT SECTION STYLE                                    289->
+           6.CONTACT SECTION STYLE                                  300->
+           7.FOOTER SECTION STYLE                                   405->
+           8.DIFFERENT DEVICE STYLE                                 455->
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+    ###################%%%%%%%%%%%%%%%%%%%$$$$$$$$$$$$$############&&&&&&&&&&&&&&&&&&&&&&&&&&
 */
-/*        ::::::::::::::::::::::::::::::::BASIC PAGE STYLE:::::::::::::::::::::::::::::::::::::::::                  */
+/*   ::::::::::::::::::::::::::::::::BASIC PAGE STYLE:::::::::::::::::::::::::::::::::::::::::                  */
     
     :root {
-      --green :green;
+      --blue :#28007d;
       --white :#fff;
       --violet :#280080;
-      --hover-color:#11af0b;
+      --hover-color:#380fce;
       --card-front-bg:#bbb;
       --card-front-c:rgb(88, 64, 175);
-      --card-back-bg:#21a707;
+      --card-back-bg:#6514cf;
       --card-back-c:rgb(141, 27, 207);
       --skill-bg:#f7f7f9;
       --skill-head-c:#2e2e2e;
@@ -37,9 +37,9 @@
       --youtube-bg:#db1c0e;
       --dev-bg:#0e0d0d;
       --form-button:#50d1c0;
-      --footer-bg:#385a30;
-      --arrow-bg:#296406;
-      --arrow-hover-bg:#606066;
+      --footer-bg:#2505b4;
+      --arrow-bg:#0e47b3;
+      --arrow-hover-bg:#3f0f66;
       --slide-time:0.5s;
       --slide-delay:1s;
     }
@@ -58,7 +58,7 @@
       }
     }
     .c-green{
-      color: var(--green) !important;
+      color: var(--blue) !important;
     }
     .c-white{
       color:var(--white) !important;
@@ -73,7 +73,7 @@
   .header{
   width: 100%;
   height: 100vh;
-  background:linear-gradient(rgba(133, 71, 141, 0.322),rgba(0, 255, 34, 0.3)), url('../img/bgdesktop1.jpg');
+  background:linear-gradient(rgb(214 135 124 / 33%),rgb(51 52 82 / 74%)), url(../img/bgdesktop1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -118,7 +118,7 @@
     text-transform: capitalize !important;
   }
   .navbar {
-    background-color: #28a74594;
+    background-color: #2b2cd894;
   }
   .nav-item a{
     color: var(--white) !important;
@@ -198,11 +198,22 @@
     border-radius: 3px;
     transition: 0.3s;
   }
-  .extra-div:hover{
+  .pad{
+    padding-top: 5rem;
+  }
+  .pad h1{
+    color: #1da1f2;
+  }
+  .img-modify{
+    width:100%;
+    height:400px;
+    object-fit:cover;
+  }
+  /* .extra-div:hover{
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
     transform: translateY(-20px);
-  }
-  .flip-card {
+  } */
+  /* .flip-card {
     background-color: transparent;
     width: 100%;
     height: 300px;
@@ -242,7 +253,7 @@
   }
   .flip-card-back p {
     color: var(--card-back-c);
-  }
+  } */
   .pro-button{
     display: flex;
     justify-content: space-evenly;
@@ -349,6 +360,8 @@
     .sns-btn:hover {
       transform: scale(1.2);
       box-shadow: none;
+      color:#0056b300;
+      text-decoration: none;
     }
     .sns-btn__icon {
       font-size: 33px;

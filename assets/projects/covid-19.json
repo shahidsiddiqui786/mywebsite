@@ -1,0 +1,10 @@
+{
+    "name" : "Covid-19",
+    "imageurl" :{
+        "src" : "assets/img/project_corona_1.png",
+        "alt" : "Covid-19"
+    },
+    "about" : "It was design in time of world threat diesease CORONAVIRUS.this website basically talks about corona and its spreadness across the globe and some preventions and general care and stats of infected people.",
+    "source" : "https://github.com/shahidsiddiqui786/mywebsite/tree/master/work/covid-19",
+    "webPage" : "https://shahidsiddiqui786.github.io/mywebsite/work/covid-19/"
+ }

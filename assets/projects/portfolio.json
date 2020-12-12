@@ -1,0 +1,10 @@
+{
+    "name" : "portfolio",
+    "imageurl" :{
+        "src" : "assets/img/project.jpg",
+        "alt" : "portfolio"
+    },
+    "about" : "This is website which basically talks about my self.It is designed just for fun.",
+    "source" : "https://github.com/shahidsiddiqui786/mywebsite/tree/master/work/mySelf",
+    "webPage" : "https://shahidsiddiqui786.github.io/mywebsite/work/myself/"
+ }
