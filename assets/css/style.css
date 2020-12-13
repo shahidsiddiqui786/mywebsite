@@ -288,11 +288,47 @@
     justify-content: center;
     align-items: center;
   }
-  .progress{
-    height: 0.6rem!important;
-    margin-bottom: 25px!important;
-  
+  .progressCustom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35vw;
+    height: 1em;
+    margin-bottom: 0.5em;
+    position: relative;
+    background-color: rgb(201, 198, 198);
+    border-radius: 1.5em;
+    color: rgb(131, 35, 35);
+    -webkit-border-radius: 1.5em;
+    -moz-border-radius: 1.5em;
+    -ms-border-radius: 1.5em;
+    -o-border-radius: 1.5em;
   }
+
+  .progressCustom::before {
+      content: '';
+      position: absolute;
+      top: 0.1em;
+      bottom: 0.1em;
+      left: 0.1em;
+      display: flex;
+      align-items: center;
+      width: calc(var(--width, 0) * 1%);
+      min-width: 2rem;
+      max-width: calc(100% - 0.2em);
+      background-color: rgb(69, 69, 201);
+      border-radius: 1.5em;
+      -webkit-border-radius: 1.5em;
+      -moz-border-radius: 1.5em;
+      -ms-border-radius: 1.5em;
+      -o-border-radius: 1.5em;
+  }
+
+  .progressCustom h7{
+      color: white;
+      z-index: 100;
+  }
+
 /*     ----------------------------------------------------------------------------------------------------------     */
 
 /*     :::::::::::::::::::::::::::::::::::::::ABOUT SECTION STYLE::::::::::::::::::::::::::::::::::::::::::::::     */
@@ -476,6 +512,9 @@
   }
   .contactus p{
       padding: 0 50px;
+  }
+  .progressCustom{
+    width: 100%;
   }
   .footer-div:nth-child(2){
       text-align: left!important;
