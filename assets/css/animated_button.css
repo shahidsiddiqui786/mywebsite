@@ -1,9 +1,12 @@
 :root{
-    --height: 100px;
-    --width: 200px;
+    --height: 60px;
+    --width: 120px;
   }
-
-
+  
+  a {
+    text-decoration: none !important;
+  }
+   
   .button-15{
     position: relative;
     width: calc(0.8 * var(--width));
@@ -35,16 +38,16 @@
 
     span{
       color: #fff;
-      font-size: 1rem;
+      font-size: 0.8rem;
       z-index: 10;
       text-transform: uppercase;
       letter-spacing: 2px;
     }
 
-    .button-15._1{ background: #2980b9 }
-    .button-15._2{ background: #8e44ad }
+    .button-15._1{ background: #1d9aee }
+    .button-15._2{ background: #b022ec }
     .button-15._3{ background: #16a085 }
-    .button-15._4{ background: #e74c3c }
+    .button-15._4{ background: #0f41e7 }
 
 
     .back{
@@ -65,7 +68,7 @@
     .button-15._2 .back{
       right: -50%;
       top: -50%;
-      background: #c0392b;
+      background: #0f41e7;
     }
     .button-15._3 .back{
       left: -50%;
@@ -84,9 +87,7 @@
     }
 
   @media only screen and (max-width: 750px) {
-    .wrapper {
-      flex-direction: column;
-    }
+
     .button-15{
       margin: 0.8rem 0;
     }

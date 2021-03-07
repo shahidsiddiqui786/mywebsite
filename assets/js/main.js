@@ -24,6 +24,7 @@ const projectUrl = "https://api.github.com/repos/shahidsiddiqui786/mywebsite/con
 
 let pro_list = document.getElementById('projects-list')
 let y
+let btn = ["_1","_2","_3","_4"],tot_btn = 4,cr_btn = 0;
 
 fetch(projectUrl)
     .then((res) => res.json())
@@ -42,10 +43,12 @@ fetch(projectUrl)
                 projectInfo.about +
                 '</p></div></div></div><div class="pro-button"><a href="' +
                 projectInfo.source +
-                '" target="_blank" role="button" class="btn btn-primary">View Code</a><a href="' +
+                '" target="_blank" role="button" class="button-15 ' + btn[cr_btn] + '"><span>View Code</span><div class="back"></div></a><a href="' +
                 projectInfo.webPage +
-                '" target="_blank" role="button" class="btn btn-primary">Website</a></div></div>'
+                '" target="_blank" role="button" class="button-15 ' + btn[cr_btn] + '"><span>Website</span><div class="back"></div></a></div></div>'
                 pro_list.innerHTML += y
+                cr_btn++
+                cr_btn = cr_btn%tot_btn
           })
         })
     })
