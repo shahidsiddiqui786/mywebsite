@@ -216,7 +216,7 @@
   }
   .img-modify{
     width:100%;
-    height:400px;
+    height:200px;
     object-fit:cover;
   }
   .bottom-flow {
@@ -231,51 +231,6 @@
   .bottom-flow a {
     color: #01022f;
   }
-  /* .extra-div:hover{
-    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
-    transform: translateY(-20px);
-  } */
-  /* .flip-card {
-    background-color: transparent;
-    width: 100%;
-    height: 300px;
-    perspective: 1000px;
-  }
-
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-  }
-
-  .flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-  }
-
-  .flip-card-front {
-    background-color: var(--card-front-bg);
-    color: var(--card-front-c);
-  }
-
-  .flip-card-back {
-    background-color: var(--card-back-bg);
-    color: var(--card-back-c);
-    transform: rotateY(180deg);
-  }
-  .flip-card-back p {
-    color: var(--card-back-c);
-  } */
   .flip-card-back {
     height:12em;
     background-color: #d8e1e6;
@@ -284,6 +239,8 @@
   }
   .flip-card-back p {
     color: darkblue;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
   }
   .pro-button{
     display: flex;
