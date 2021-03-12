@@ -1,10 +1,10 @@
 {
-    "name" : "Group Talk",
+    "name" : "My Website",
     "imageurl" :{
-        "src" : "assets/img/project_group_chat.png",
+        "src" : "assets/img/mywebsite.png",
         "alt" : "portfolio"
     },
-    "about" : "A web App for group chat developed with socket.io, nodejs, reactjs.I designed as a learning project about real time communication via socket.",
-    "source" : "https://github.com/shahidsiddiqui786/Meet-app",
-    "webPage" : "https://group-chat-meet.netlify.app/"
+    "about" : "THIS WEBSITE TALKS ABOUT ME..........",
+    "source" : "https://github.com/shahidsiddiqui786/mywebsite",
+    "webPage" : "https://shahid92.netlify.app/"
  }

@@ -1,10 +1,10 @@
 {
-    "name" : "Group Talk",
+    "name" : "Space_Exploration",
     "imageurl" :{
-        "src" : "assets/img/project_group_chat.png",
-        "alt" : "portfolio"
+        "src" : "assets/img/space.png",
+        "alt" : "space"
     },
-    "about" : "A web App for group chat developed with socket.io, nodejs, reactjs.I designed as a learning project about real time communication via socket.",
-    "source" : "https://github.com/shahidsiddiqui786/Meet-app",
-    "webPage" : "https://group-chat-meet.netlify.app/"
+    "about" : "A web App which fetch nasa open api images/other info. and display them to user and also allow them to comment on that.",
+    "source" : "https://github.com/shahidsiddiqui786/SpaceExploration",
+    "webPage" : "https://spacians.herokuapp.com/"
  }
