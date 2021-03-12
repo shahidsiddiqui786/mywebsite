@@ -29,7 +29,7 @@ let btn = ["_1","_2","_3","_4"],tot_btn = 4,cr_btn = 0;
 fetch(projectUrl)
     .then((res) => res.json())
     .then((data) => {
-        console.log(data)
+         console.log(data)
         data.forEach(ele => {
           fetch(ele.download_url)
           .then((res) => res.json())

@@ -1,0 +1,10 @@
+{
+    "name" : "Group Talk",
+    "imageurl" :{
+        "src" : "assets/img/project_group_chat.png",
+        "alt" : "portfolio"
+    },
+    "about" : "A web App for group chat developed with socket.io, nodejs, reactjs.I designed as a learning project about real time communication via socket.",
+    "source" : "https://github.com/shahidsiddiqui786/Meet-app",
+    "webPage" : "https://group-chat-meet.netlify.app/"
+ }
