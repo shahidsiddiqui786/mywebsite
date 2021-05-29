@@ -1,0 +1,10 @@
+{
+    "name" : "Bus Management System",
+    "imageurl" :{
+        "src" : "assets/img/busmanagementapp.herokuapp.com_buses.png",
+        "alt" : "bus management"
+    },
+    "about" : "Bus management system to track buses , drivers, conductors, passangers and their tickets.",
+    "source" : "https://github.com/shahidsiddiqui786/BusManagementSystem",
+    "webPage" : "https://busmanagementapp.herokuapp.com/"
+ }
